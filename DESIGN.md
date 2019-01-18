@@ -64,6 +64,7 @@ Basic notions
     the destination of an edge), and which creates artifacts (all artifacts ndoes that are not inputs)
 
   - example of computation:
+```
                                 smtlib           ------         proof_coq              ---------   stdout
                               ---------- < > ----| z3 |       ------------ < > ------- | coqc  |----------- < >
                              /                   ------      /                         ---------
@@ -75,7 +76,7 @@ Basic notions
                              \    zf             ----------  \    statistics
                               ---------- < > ----| zipper |   \----------------- < >
                                                  ----------
-
+```
 
 * Test/Benchmark specification:
 
